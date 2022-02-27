@@ -112,7 +112,7 @@ Follow the steps below to create a pull request.
 
 4. Whenever questions come up don't hesitate to reach out (see the icons in the top menu). We're here to help!
 
-5. Clone the Fairlearn repository onto your machine using :code:`https://github.com/fairlearn/fairlearn.git`
+5. Clone the Fairlearn repository onto your machine using :code:`git clone https://github.com/fairlearn/fairlearn.git`
 
 6. Fork the Fairlearn repository (using the "Fork" button on the Fairlearn repo), then run :code:`git remote add <your-alias> https://github.com/<your-alias>/fairlearn.git` while replacing :code:`<your-alias>` with your actual alias. To check whether it worked run :code:`git remote -v` and it should show both :code:`origin` pointing to the original fairlearn repo and :code:`<your-alias>` pointing to your fork. Now you can create a new branch and start changing the world!
 
