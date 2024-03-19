@@ -9,8 +9,9 @@ Intersectionality in Mental Health Care
 """
 
 # %%
-# *This notebook was written by Yifan Wang and Marta Maslej and is licenced under a* `Creative
-# Commons Attribution 4.0 International License <http://creativecommons.org/licenses/by/4.0/>`_.
+# *This notebook was written by Yifan Wang, Marta Maslej, and Laura Sikstrom and is licenced
+# under a* `Creative Commons Attribution 4.0 International
+# License <http://creativecommons.org/licenses/by/4.0/>`_.
 #
 # ---------
 #
@@ -1211,7 +1212,7 @@ train["Diagnosis"] = train["Diagnosis"].astype(int)
 test["Diagnosis"] = test["Diagnosis"].astype(int)
 
 # Create new intersect column for plotting
-test["intersect"] = np.nan
+test["intersect"] = ""
 test.loc[(test["Sex"] == "Male") & (test["Race"] == "White"), "intersect"] = "WhiteM"
 test.loc[(test["Sex"] == "Male") & (test["Race"] == "Black"), "intersect"] = "BlackM"
 test.loc[(test["Sex"] == "Male") & (test["Race"] == "Hispanic"), "intersect"] = "HispanicM"
